@@ -16,8 +16,19 @@ class Beverage
 
      function getInfo()
     {
-        return "This beverage is $this->temperature and $this->color.";
+        return "This beverage is $this->temperature and $this->color";
     }
+
+
+function getPrice() {
+    return "price is:" .$this->$price;
 }
+}
+
+$Beverage = new beverage("black", "2");
+echo $Beverage->getInfo();
+echo "<br>";
+echo "<br>";
+echo $Beverage->getPrice();
 
 
