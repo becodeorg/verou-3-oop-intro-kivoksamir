@@ -21,8 +21,8 @@ class Beverage
 
 
 function getPrice() {
-    return "price is:" .$this->$price;
-}
+    return  "price is : " . $this->price." €";
+} 
 }
 
 $Beverage = new beverage("black", "2");
