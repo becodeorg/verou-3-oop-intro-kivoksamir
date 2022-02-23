@@ -22,6 +22,8 @@ class Beer extends Beverage
     private  $alcohol;
     
     
+    
+    
     public function __construct( $color,$price,$temprature, $name, $alcohol)
     {
         

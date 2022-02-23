@@ -12,6 +12,7 @@ class Beverage
         $this->color = $color;
         $this->price = $price;
         $this->temperature = $temperature;
+        
     }
 
      function getInfo()
