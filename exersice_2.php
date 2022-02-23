@@ -29,7 +29,6 @@ class Alcohol extends Beverage  {   //here extende from ex_1 ..
     }
 };
 
- 
 $Beer = new Beverage("Blond", 3.5);
 echo $Beer->getInfo();
 echo "<br>";
